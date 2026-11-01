@@ -174,44 +174,7 @@ for i in range(epochs):
             f"Loss:{loss.item():.4f} "
             f"Accuracy:{val_accuracy:.4f}"
         )
-mpre=[]
-act=[]
 
-model.eval()
-
-with torch.no_grad():
-    output=model(xst)
-    _,predicted=torch.max(output,1)
-
-    pre.extend(predicted.numpy())
-    act.extend(yst.numpy())
-
-accuracy=accuracy_score(act,pre)
-conf_matrix=confusion_matrix(act,pre)
-cl_report=classification_report(
-    act,
-    pre,
-    target_names=['A','B','C','D']
-)
-
-print("Accuracy:",accuracy)
-print("confusion_matrix:\n",conf_matrix)
-print("classification_report:\n",cl_report)
-accuracy=accuracy_score(act,pre)
-conf_matrix=confusion_matrix(act,pre)
-
-print("Accuracy:",accuracy)
-print("confusion_matrix:\n",conf_matrix)
-
-print("classification_report:")
-print(
-    classification_report(
-        act,
-        pre,
-        target_names=['A','B','C','D'],
-        zero_division=0
-    )
-)
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 model.eval()
