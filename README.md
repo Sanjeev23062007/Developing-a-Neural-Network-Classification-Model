@@ -262,6 +262,12 @@ plt.show()
 ---
 
 ### OUTPUT
+<img width="444" height="527" alt="Screenshot 2026-11-01 230711" src="https://github.com/user-attachments/assets/c01d01fa-c7c4-4327-92ee-e3b495c2b2bd" />
+<img width="1249" height="486" alt="Screenshot 2026-11-01 230522" src="https://github.com/user-attachments/assets/8f09510b-a86f-473b-aa3e-a117764a1dab" />
+<img width="1291" height="494" alt="Screenshot 2026-11-01 230504" src="https://github.com/user-attachments/assets/6e6b84cf-634a-4c54-89ff-d0daee20df08" />
+<img width="717" height="111" alt="Screenshot 2026-11-01 230426" src="https://github.com/user-attachments/assets/36b96812-8536-45ec-a248-8478b754b289" />
+<img width="1276" height="480" alt="Screenshot 2026-11-01 230400" src="https://github.com/user-attachments/assets/1c835870-c04b-4116-9a43-7086d5756e7b" />
+<img width="1376" height="487" alt="Screenshot 2026-11-01 230342" src="https://github.com/user-attachments/assets/22c4cb24-47be-4a2a-a321-b633811f3c3e" />
 
 ## Confusion Matrix
 <img width="878" height="662" alt="Screenshot 2026-11-01 222031" src="https://github.com/user-attachments/assets/d8555a1b-e444-4cc6-ade0-2d93d0b1a7fc" />
